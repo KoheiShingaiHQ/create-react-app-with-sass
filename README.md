@@ -43,4 +43,6 @@ import './App.css';
 → Running `npm start` compiles `.sass` files to `.css` under `/src` directory.  
 → Open http://localhost:3000 to see `polyreact` .
 
+> Demo : [koheishingaiHQ.github.io/create-react-app-with-sass](https://koheishingaihq.github.io/create-react-app-with-sass)
+
 ![create-react-app-with-sass-screen-shot](https://c1.staticflickr.com/5/4465/36878306283_8811ec8516_b.jpg)

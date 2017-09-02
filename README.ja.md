@@ -43,4 +43,6 @@ import './App.css';
 → `npm start` 実行により、`/src` フォルダ以下の `.sass` ファイルが、`.css` に変換されます。  
 → http://localhost:3000 を開くと、 `polyreact` の内容が表示されます。
 
+> 見本 : [koheishingaiHQ.github.io/create-react-app-with-sass](https://koheishingaihq.github.io/create-react-app-with-sass)
+
 ![create-react-app-with-sass-screen-shot](https://c1.staticflickr.com/5/4465/36878306283_8811ec8516_b.jpg)
