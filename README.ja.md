@@ -1,23 +1,23 @@
 # Create React App - *CSS* のカスタマイズ
 
 ## CSS → Sass
-`polyreact` を、カスタマイズしてみます。
+[create-react-app](https://koheishingaihq.github.io/me/#/article/create-react-app) を、カスタマイズしてみます。
 
 ### npmモジュール - *node-sass-chokidar* のインストール
 ```bash
-# カレントディレクトリ : ~/polyreact
+# カレントディレクトリ : ~/create-react-app
 npm install node-sass-chokidar --save-dev
 ```
 
 ### npmモジュール - *npm-run-all* のインストール
 ```bash
-# カレントディレクトリ : ~/polyreact
+# カレントディレクトリ : ~/create-react-app
 npm install npm-run-all --save-dev
 ```
 
 ### package.json - *script* の編集
 ```diff
-# ファイルパス : ~/polyreact/package.json
+# ファイルパス : ~/create-react-app/package.json
 -    "start": "react-scripts start",
 -    "build": "react-scripts build",
 +    "start-js": "react-scripts start",
@@ -29,19 +29,19 @@ npm install npm-run-all --save-dev
 
 ### カスタマイズ用 Sass ファイルをプロジェクトへ追加
 ```sass
-/* ファイルパス : ~/polyreact/src/Custom.sass */
+/* ファイルパス : ~/create-react-app/src/Custom.sass */
 body
   background: powderblue
 ```
 
 ```diff
-# ファイルパス : ~/polyreact/src/App.js
+# ファイルパス : ~/create-react-app/src/App.js
 import './App.css';
 + import './Custom.css'
 ```
 
 → `npm start` 実行により、`/src` フォルダ以下の `.sass` ファイルが、`.css` に変換されます。  
-→ http://localhost:3000 を開くと、 `polyreact` の内容が表示されます。
+→ http://localhost:3000 を開くと、 `create-react-app` の内容が表示されます。
 
 > 見本 : [koheishingaiHQ.github.io/create-react-app-with-sass](https://koheishingaihq.github.io/create-react-app-with-sass)
 
